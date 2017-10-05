@@ -2,11 +2,7 @@
  * Created by gonah on 10/5/2017.
  */import duke.*;
 import org.apache.commons.csv.*;
-public class Exprt {
-
-
-
-    public class Export {
+ public class Export {
 
 	public void readFood() {
 		FileResource fr = new FileResource();
