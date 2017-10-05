@@ -1,16 +1,12 @@
 /**
  * Created by gonah on 9/24/2017.
  */
-public class GreyScale {
     import edu.duke.DirectoryResource;
 import edu.duke.ImageResource;
 import edu.duke.Pixel;
 import java.io.File;
-
-    public class BatchGreyscale {
-
-
-        //TODO: select files
+ public class BatchGreyscale {
+//TODO: select files
         public void selectImages() {
 
             DirectoryResource dir = new DirectoryResource();
