@@ -6,8 +6,7 @@ import edu.duke.ImageResource;
 import edu.duke.Pixel;
 import java.io.File;
 public class negative {
-
-        public void selectImages() {
+    public void selectImages() {
             DirectoryResource dir = new DirectoryResource();
             for (File f : dir.selectedFiles()) {
                 ImageResource newImage = convertToNegative(new ImageResource(f));
